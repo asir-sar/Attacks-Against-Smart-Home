@@ -1,0 +1,9 @@
+[00:00:02.403] Server  LOG     ✓ Ready in 1668ms
+[00:00:24.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.343] Browser LOG     Connected to backend WebSocket!
+[00:02:19.724] Browser LOG     Disconnected from backend WebSocket.
+[00:10:33.728] Browser LOG     Connected to backend WebSocket!
+[00:10:40.727] Browser LOG     Disconnected from backend WebSocket.
+[00:11:00.732] Browser LOG     Connected to backend WebSocket!
+[00:11:29.816] Server  WARN    ⚠ Blocked cross-origin request from 192.168.188.71 to /_next/* resource. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins

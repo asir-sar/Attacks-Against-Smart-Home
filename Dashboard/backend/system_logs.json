@@ -1,0 +1,282 @@
+{"timestamp":"17/12/2025, 14:25:19","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"17/12/2025, 14:25:19","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"17/12/2025, 14:25:20","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"17/12/2025, 14:25:20","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"17/12/2025, 14:25:21","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"17/12/2025, 14:25:21","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"17/12/2025, 14:25:21","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"17/12/2025, 14:25:21","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"17/12/2025, 14:25:21","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"17/12/2025, 14:25:21","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"17/12/2025, 14:25:21","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"17/12/2025, 14:25:22","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"17/12/2025, 14:25:22","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"17/12/2025, 14:25:22","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"17/12/2025, 14:25:22","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"17/12/2025, 14:25:22","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"17/12/2025, 14:25:22","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"17/12/2025, 14:25:22","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"17/12/2025, 14:25:23","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"17/12/2025, 14:25:23","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"17/12/2025, 14:25:23","user":"192.168.86.1","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"17/12/2025, 14:25:23","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"21/12/2025, 19:12:28","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:12:28","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:12:48","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:12:48","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"21/12/2025, 19:12:48","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:12:48","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"21/12/2025, 19:12:49","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:12:49","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"21/12/2025, 19:12:50","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:12:50","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:12:51","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:12:51","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:12:52","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"21/12/2025, 19:12:52","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:12:52","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"21/12/2025, 19:12:54","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"21/12/2025, 19:12:54","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:12:54","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"21/12/2025, 19:12:54","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:12:54","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:12:55","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"21/12/2025, 19:12:55","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:12:55","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"21/12/2025, 19:12:55","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:12:55","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:13:01","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"21/12/2025, 19:13:01","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:13:01","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"21/12/2025, 19:13:01","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:13:01","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:13:02","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"21/12/2025, 19:13:02","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:13:03","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"21/12/2025, 19:13:03","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:13:03","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:13:04","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:13:04","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"21/12/2025, 19:13:05","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:13:05","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"21/12/2025, 19:13:08","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:13:08","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:13:10","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:13:10","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:13:14","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"21/12/2025, 19:13:14","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:13:14","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"21/12/2025, 19:13:46","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:13:46","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:13:54","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:13:54","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"21/12/2025, 19:13:54","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:13:54","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"21/12/2025, 19:13:57","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 19:13:57","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:13:58","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 19:13:58","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:13:59","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"21/12/2025, 19:13:59","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:13:59","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"21/12/2025, 19:13:59","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 19:13:59","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:14:00","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"21/12/2025, 19:14:00","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:14:00","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"21/12/2025, 19:14:00","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 19:14:00","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"21/12/2025, 19:14:09","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"21/12/2025, 19:14:09","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 19:14:09","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"21/12/2025, 19:14:35","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:14:35","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:15:25","user":"192.168.188.68","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:15:25","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:20:16","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:20:16","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:20:48","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:20:48","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:21:53","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:21:53","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 19:22:59","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 19:22:59","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 20:32:27","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:32:27","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 20:32:55","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:32:55","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"21/12/2025, 20:36:17","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"21/12/2025, 20:36:17","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"21/12/2025, 20:36:17","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"21/12/2025, 20:36:19","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"21/12/2025, 20:36:19","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"21/12/2025, 20:36:20","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"21/12/2025, 20:36:20","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"21/12/2025, 20:51:41","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:51:41","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:51:52","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:51:52","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:52:04","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:52:04","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:52:34","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:52:34","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:52:36","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:52:36","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:53:09","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:53:09","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:53:28","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:53:28","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:53:47","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:53:47","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:54:02","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:54:02","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:23","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:23","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:23","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:23","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:23","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:23","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:23","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:23","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:28","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:28","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:29","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:29","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:29","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:29","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:30","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:30","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:30","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:30","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:30","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:30","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:42","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:42","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 20:56:53","user":"10.107.12.2","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 20:56:53","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:01:05","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:01:05","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:01:12","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:01:12","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:03:25","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:03:25","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:04:15","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:04:15","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:24:18","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:24:18","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:24:19","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:24:19","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:24:19","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:24:19","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"21/12/2025, 21:24:19","user":"192.168.51.235","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"21/12/2025, 21:24:19","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"25/12/2025, 12:58:11","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 12:58:11","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"25/12/2025, 12:58:17","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 12:58:17","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"25/12/2025, 12:59:42","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 12:59:42","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"25/12/2025, 13:08:06","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:08:06","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: admin"}
+{"timestamp":"25/12/2025, 13:08:33","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:08:33","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"25/12/2025, 13:09:08","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:09:08","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"25/12/2025, 13:09:49","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"\",\"password\":\"\"}"}
+{"timestamp":"25/12/2025, 13:09:49","user":"Unknown","type":"AUTH","details":"Failed Login Attempt: "}
+{"timestamp":"25/12/2025, 13:09:57","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:09:57","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"25/12/2025, 13:10:14","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:10:14","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"25/12/2025, 13:10:15","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:10:15","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"25/12/2025, 13:10:15","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"25/12/2025, 13:10:15","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:10:15","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"25/12/2025, 13:10:15","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:10:15","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:10:16","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"25/12/2025, 13:10:16","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:10:16","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"25/12/2025, 13:10:16","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:10:16","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:10:17","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:10:17","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:10:17","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:10:17","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:10:19","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"25/12/2025, 13:10:19","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:10:19","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"25/12/2025, 13:11:38","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:11:38","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"25/12/2025, 13:12:55","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/login | Body: {\"username\":\"admin\",\"password\":\"password123\"}"}
+{"timestamp":"25/12/2025, 13:12:55","user":"admin","type":"AUTH","details":"Successful Web Login"}
+{"timestamp":"25/12/2025, 13:13:00","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:13:00","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:13:00","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:13:00","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:01","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:01","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:01","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"25/12/2025, 13:13:01","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:13:01","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:02","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:02","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:02","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"25/12/2025, 13:13:02","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:02","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:03","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:13:03","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"25/12/2025, 13:13:04","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:13:04","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:33","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:33","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:33","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"25/12/2025, 13:13:33","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:13:33","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:34","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:34","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/arm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Web Dashboard","type":"SIMULATION","details":"Arm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Physical Button","type":"SECURITY","details":"System ARMED by User"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = ARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:34","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/disarm | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Web Dashboard","type":"SIMULATION","details":"Disarm Button Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Physical Button","type":"SECURITY","details":"System DISARMED by User"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:34","user":"Automatic Logic","type":"MQTT_OUT","details":"Command Sent: home/livingroom/buzzer/set = DISARM_CHIRP"}
+{"timestamp":"25/12/2025, 13:13:35","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:13:35","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"25/12/2025, 13:13:36","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:13:36","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:37","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:13:37","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"25/12/2025, 13:13:38","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:13:38","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
+{"timestamp":"25/12/2025, 13:13:39","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:13:39","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = OFF"}
+{"timestamp":"25/12/2025, 13:13:40","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"25/12/2025, 13:13:40","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:13:40","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"25/12/2025, 13:14:00","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/mock/motion | Body: {}"}
+{"timestamp":"25/12/2025, 13:14:00","user":"Web Dashboard","type":"SIMULATION","details":"Motion Simulated via Dashboard"}
+{"timestamp":"25/12/2025, 13:14:00","user":"Sensor-1","type":"SENSOR","details":"Motion Detected at Entryway"}
+{"timestamp":"25/12/2025, 13:14:05","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:14:05","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"25/12/2025, 13:14:06","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:14:06","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = ON"}
+{"timestamp":"25/12/2025, 13:14:07","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/fan | Body: {\"state\":\"OFF\"}"}
+{"timestamp":"25/12/2025, 13:14:07","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/fan/set = OFF"}
+{"timestamp":"25/12/2025, 13:14:16","user":"192.168.188.71","type":"HTTP_REQUEST","details":"Method: POST | URL: /api/led | Body: {\"state\":\"ON\"}"}
+{"timestamp":"25/12/2025, 13:14:16","user":"Web Dashboard","type":"MQTT_OUT","details":"Command Sent: home/livingroom/led/set = ON"}
